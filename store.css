@@ -1,0 +1,601 @@
+main {
+    background:
+        radial-gradient(circle at 70% 40%, #FFCEE3 5%, transparent 30%),
+        linear-gradient(150deg, #F1D4E5 20%, #FCE9F1 50%, #FCE9F1 100%);
+}
+
+header {
+    text-align: center;
+    padding: 5px 23px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid;
+    position: sticky;
+    z-index: 100;
+    background:
+        radial-gradient(circle at 70% 40%, #FFCEE3 5%, transparent 30%),
+        linear-gradient(150deg, #F1D4E5 20%, #FCE9F1 50%, #FCE9F1 100%);
+}
+
+nav {
+    margin-right: 170px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+}
+
+#inicio {
+    min-height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+.textoinicio h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.textoinicio p {
+    font-size: 20px;
+    max-width: 450px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.imagencolecc {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+
+}
+
+.imagencolecc img {
+    width: 450px;
+    transform: translateX(100px);
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 200px;
+    margin-left: -50px;
+}
+
+.titulo h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-left: -50px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.botones-inicio {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.shopnow {
+    background: #ff72b6;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.ver-ofertas {
+    background: #ff72b6;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.texto-productosin {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    padding-left: 8%;
+}
+
+.texto-productosin img {
+    width: 30px;
+    padding: 20px;
+}
+
+.destacados-contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;           
+    gap: 30px;                 
+    margin-top: 40px;
+    border-radius: 1rem;
+}
+
+.productoD {
+    width: 210px;
+    background: white;
+    border-radius: 25px;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+}
+.productoD h3{
+    color: #ff72b6;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+}
+.precio{
+    font-weight: bold;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+}
+.productoD button{
+    background: linear-gradient(
+        90deg,
+        #FF8FB7,
+        #FF85BB
+    );
+
+    border: none;
+    color: white;
+
+    padding: 12px 25px;
+    border-radius: 50px;
+
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+
+    margin-top: auto;
+}
+.productoD img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+    /*banner*/
+.banner{
+    max-width: 1200px;
+    margin: 80px auto;
+
+    padding: 80px 40px;
+
+    text-align: center;
+
+    border-radius: 35px;
+
+    background: linear-gradient(
+        90deg,
+        #FF70BF 0%,
+        #F9B2D7 50%,
+        #FF85BB 100%
+    );
+
+    color: white;
+}
+
+.cartel{
+    display: inline-block;
+
+    padding: 12px 25px;
+
+    border-radius: 50px;
+
+    background: rgba(0, 0, 0, 0.15);
+
+    backdrop-filter: blur(10px);
+
+    margin-bottom: 25px;
+
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.banner h2{
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+}
+.banner p{
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.boton-oferta{
+    display: inline-block;
+
+    padding: 20px 40px;
+
+    background: white;
+    color: #021A54;
+
+    text-decoration: none;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+ /*footer*/
+footer {
+  padding: 0.8rem 0; 
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+
+  background: linear-gradient(
+        90deg,
+        #FF70BF 0%,
+        #F9B2D7 50%,
+        #FF85BB 100%
+    );
+}
+
+.contenedor-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; 
+  max-width: 1100px; 
+  margin: auto;
+  padding: 1rem 5%;
+}
+
+.titulo-footer {
+  font-size: 1rem; 
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.contact-info ul,
+.information ul {
+    display: block; 
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info ul li,
+.information ul li {
+    display: block; 
+    color: #000000;
+    font-weight: 300;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+.social-icons span {
+    display: flex;
+    width: 2rem; 
+    height: 2rem;
+}
+
+.social-icons span i {
+  font-size: 0.9rem;
+}
+
+.payments img {
+  width: 30px; 
+}
+
+.content input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000000;
+  font-size: 0.85rem;
+  background: transparent;
+  outline: none;
+}
+
+.content button {
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  border-radius: 8px;
+  align-self: flex-start;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #000000;
+  margin-top: 1.2rem;
+  border-top: 1px solid #000000;
+  padding-top: 20px;
+}
+
+#newcollection {
+    width: 100%;
+    overflow: hidden;
+}
+
+.cartelcollec img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+}
+#newcollection h2{
+    display: block;
+    align-items: center;
+    gap: 5px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    padding: 40px 8%;
+    margin: 0%;
+}
+
+.productosnc-contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;           
+    gap: 30px;                 
+    margin-top: 40px;
+    border-radius: 1rem;
+    align-items: flex-start;
+}
+
+.productos-nc {
+    width: 210px;
+    background: white;
+    border-radius: 25px;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+}
+.productos-nc h3{
+    color: #ff72b6;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+}
+.precio{
+    font-weight: bold;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+}
+.productos-nc button{
+    background: linear-gradient(
+        90deg,
+        #FF8FB7,
+        #FF85BB
+    );
+
+    border: none;
+    color: white;
+
+    padding: 12px 25px;
+    border-radius: 50px;
+
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+
+    margin-top: auto;
+}
+.productos-nc img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain; 
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*seccion productos!!*/
+#productos h2{
+    display: block;
+    align-items: center;
+    gap: 5px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    padding: 40px 8%;
+    margin: 0%; 
+}
+.productosS img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain; 
+    display: block;
+    margin: 0 auto;
+}
+.productosS button{
+    background: linear-gradient(
+        90deg,
+        #FF8FB7,
+        #FF85BB
+    );
+
+    border: none;
+    color: white;
+
+    padding: 12px 25px;
+    border-radius: 50px;
+
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+
+    margin-top: auto;
+}
+.precio{
+    font-weight: bold;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+}
+.productos-contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;           
+    gap: 30px;                 
+    margin-top: 40px;
+    border-radius: 1rem;
+    align-items: flex-start;
+}
+
+.productosS {
+    width: 210px;
+    background: #ffffff;
+    border-radius: 25px;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+}
+.productosS h3{
+    color: #ff72b6;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+}   
+
+/*formulario*/
+
+#contacto {
+    padding: 60px 8%;
+}
+
+#contacto h2{
+    font-family: "Unbounded", sans-serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form-contacto {
+    background: #43334C;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-fila {
+    display: flex;
+    gap: 20px;
+}
+
+.form-fila .form-grupo {
+    flex: 1; 
+}
+
+.form-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    color: #aaaaaa;
+    font-family: "Lexend", sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px; 
+}
+
+input, select, textarea {
+    background: rgba(255, 255, 255, 0.05); 
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 14px 16px;
+    color: white;
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+textarea {
+    height: 140px;
+    resize: none; 
+}
+
+select option {
+    background: #1e1e28;
+    color: white;
+}
+
+.boton-enviar {
+    background: linear-gradient(90deg, #F9B2D7, #ff72b6);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 18px;
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+.carrusel{
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0;
+}
+.carrusel-imgs{
+    display: flex;
+    gap: 10px; 
+    animation: mover 15s linear infinite; 
+    width: max-content;
+}
+.tarjetaimg{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.tarjetaimg img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+@keyframes mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+
