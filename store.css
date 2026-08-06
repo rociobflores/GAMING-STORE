@@ -13,6 +13,7 @@ header {
     align-items: center;
     border-bottom: 2px solid;
     position: sticky;
+    top: 0;
     z-index: 100;
     background:
         radial-gradient(circle at 70% 40%, #FFCEE3 5%, transparent 30%),
@@ -181,6 +182,7 @@ a {
     font-optical-sizing: auto;
 
     margin-top: auto;
+    cursor: pointer;
 }
 .productoD img{
     width: 100%;
@@ -410,6 +412,7 @@ footer {
     font-optical-sizing: auto;
 
     margin-top: auto;
+    cursor: pointer;
 }
 .productos-nc img {
     width: 100%;
@@ -454,6 +457,7 @@ footer {
     font-optical-sizing: auto;
 
     margin-top: auto;
+    cursor: pointer;
 }
 .precio{
     font-weight: bold;
@@ -598,4 +602,63 @@ select option {
     100% { transform: translateX(-50%); }
 }
 
+.carrito-btn {
+    position: relative;
+    background: #ff72b6;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.carrito-btn img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
 
+#carrito-contador {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: #43334C;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.buscador-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 30px 8% 0;
+}
+#buscador {
+    width: 200px;
+    padding: 8px 16px;
+    border-radius: 50px;
+    border: 2px solid #ff72b6;
+    font-family: "Lexend", sans-serif;
+    font-size: 13px;
+    outline: none;
+    background: white;
+    color: #000;
+}
+
+.buscador-wrap {
+    padding: 0;
+}
+
+.buscador-wrap img{
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}

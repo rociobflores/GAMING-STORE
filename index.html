@@ -14,6 +14,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -31,6 +33,15 @@
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
+
+        <div class="buscador-wrap">
+            <input type="text" id="buscador"><img src="img/search.png" alt="search">
+        </div>
+
+        <button class="carrito-btn">
+            <img src="img/cart.png" alt="cart">
+            <span id="carrito-contador">0</span>
+        </button>
     </header>
 
 
@@ -42,17 +53,16 @@
                     <p>Los mejores perifericos y accesorios gaming para llevar tu experiencia al siguiente nivel.</p>
 
                     <div class="botones-inicio">
-                        <a href="#" class="shopnow">SHOP NOW!</a>
-                        <a href="#" class="ver-ofertas">VER OFERTAS</a>
+                        <a href="#productos-inicio" class="shopnow">SHOP NOW!</a>
+                        <a href="#productos" class="ver-ofertas">VER OFERTAS</a>
                     </div>
                 </div>
-
 
                 <div class="imagencolecc">
                     <img src="fotocoleccion.png" alt="coleccfoto">
                 </div>
             </div>
-
+                
             <section id="productos-inicio">
                 <div class="texto-productosin">
                     <img src="img/favourite.png" alt="destacadoimg">
@@ -60,33 +70,7 @@
                 </div>
 
                 <div class="destacados-contenedor">
-                    <article class="productoD">
-                        <img src="img/auriculares.jpg" alt="auriculares-productosD">
-                        <h3>AURICULARES</h3>
-                        <p class="precio">$25.000</p>
-                        <button>AÑADIR</button>
-                    </article>
-
-                    <article class="productoD">
-                        <img src="img/teclado.png" alt="teclado-productosD">
-                        <h3>TECLADO</h3>
-                        <p class="precio">$25.000</p>
-                        <button>AÑADIR</button>
-                    </article>
-
-                    <article class="productoD">
-                        <img src="img/joystick.png" alt="joystick">
-                        <h3>JOYSTICK</h3>
-                        <p class="precio">$25.000</p>
-                        <button>AÑADIR</button>
-                    </article>
-
-                    <article class="productoD">
-                        <img src="img/microfono.png" alt="microfono">
-                        <h3>MICROFÓNO</h3>
-                        <p class="precio">$25.000</p>
-                        <button>AÑADIR</button>
-                    </article>
+                    
                 </div>
             </section>
 
@@ -95,7 +79,7 @@
                 <h2>HASTA 50% DE DESCUENTO</h2>
                 <p>En productos seleccionados.</p>
 
-                <a href="#" class="boton-oferta">Ver productos en oferta</a>
+                <a href="#productos" class="boton-oferta">Ver productos en oferta</a>
             </section>
         </div>
 
@@ -105,96 +89,7 @@
             <h2>Productos <b style="margin-left: 40px;">✮⋆˙NEW COLLECTION✮⋆˙</b></h2>
 
             <div class="productosnc-contenedor">
-                <article class="productos-nc">
-                    <img src="img/auriculares.jpg" alt="auriculares-productosnc">
-                    <h3>AURICULARES</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productos-nc">
-                    <img src="img/teclado.png" alt="teclado-productosnc">
-                    <h3>TECLADO</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productos-nc">
-                    <img src="img/joystick.png" alt="joysticknc">
-                    <h3>JOYSTICK</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productos-nc">
-                    <img src="img/microfono.png" alt="microfononc">
-                    <h3>MICROFÓNO</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productos-nc">
-                    <img src="img/mouse.jpg" alt="mousenc">
-                    <h3>MOUSE</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productos-nc">
-                    <img src="img/silla.jpg" alt="sillanc">
-                    <h3>SILLA</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productos-nc">
-                    <img src="img/microfonoplug.jpg" alt="microfonoplugnc">
-                    <h3>MICROFÓNO</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productos-nc">
-                    <img src="img/impresora.jpg" alt="impresoranc">
-                    <h3>IMPRESORA</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productos-nc">
-                    <img src="img/escritorio.jpg" alt="escritorionc">
-                    <h3>ESCRITORIO</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productos-nc">
-                    <img src="img/combo.jpg" alt="combonc">
-                    <h3>COMBO TECLADO+MOUSE</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productos-nc">
-                    <img src="img/silla2.jpg" alt="silla2nc">
-                    <h3>SILLA</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productos-nc">
-                    <img src="img/laptop.jpg" alt="laptopnc">
-                    <h3>LAPTOP</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productos-nc">
-                    <img src="img/gabinete.jpg" alt="gabinetenc">
-                    <h3>GABINETE</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
+                
             </div>
         </div>
 
@@ -237,57 +132,7 @@
                 </div>
             </section>
 
-            <div class="productos-contenedor">
-                <article class="productosS">
-                    <img src="img/auris.jpg" alt="aurisjpg">
-                    <h3>AURICULARES</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productosS">
-                    <img src="img/mic.jpg" alt="micjpg">
-                    <h3>MICROFÓNO</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productosS">
-                    <img src="img/sillavioleta.jpg" alt="sillavioleta">
-                    <h3>SILLA</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productosS">
-                    <img src="img/gabineteP.jpg" alt="gabineteP">
-                    <h3>GABINETE</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productosS">
-                    <img src="img/monitor.jpg" alt="monitorP">
-                    <h3>MONITOR</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productosS">
-                    <img src="img/webcam.jpg" alt="webcamP">
-                    <h3>WEBCAM</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-                <article class="productosS">
-                    <img src="img/laptop2.jpg" alt="laptopP">
-                    <h3>LAPTOP</h3>
-                    <p class="precio">$25.000</p>
-                    <button>AÑADIR</button>
-                </article>
-
-            </div>
+            <div class="productos-contenedor"> </div>
         </div>
 
         <div id="contacto">
@@ -381,7 +226,7 @@
         </div>
     </footer>
 
-
+    <script src="store.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "nombre": "AURICULARES",
+    "precio": 25000,
+    "img": "img/auriculares.jpg",
+    "categoria": "destacado"
+  },
+  {
+    "id": 2,
+    "nombre": "TECLADO",
+    "precio": 25000,
+    "img": "img/teclado.png",
+    "categoria": "destacado"
+  },
+  {
+    "id": 3,
+    "nombre": "JOYSTICK",
+    "precio": 25000,
+    "img": "img/joystick.png",
+    "categoria": "destacado"
+  },
+  {
+    "id": 4,
+    "nombre": "MICRÓFONO",
+    "precio": 25000,
+    "img": "img/microfono.png",
+    "categoria": "destacado"
+  },
+  {
+    "id": 5,
+    "nombre": "MOUSE",
+    "precio": 25000,
+    "img": "img/mouse.jpg",
+    "categoria": "new"
+  },
+  {
+    "id": 6,
+    "nombre": "SILLA",
+    "precio": 25000,
+    "img": "img/silla.jpg",
+    "categoria": "new"
+  },
+  {
+    "id": 7,
+    "nombre": "MICRÓFONO PLUG",
+    "precio": 25000,
+    "img": "img/microfonoplug.jpg",
+    "categoria": "new"
+  },
+  {
+    "id": 8,
+    "nombre": "IMPRESORA",
+    "precio": 25000,
+    "img": "img/impresora.jpg",
+    "categoria": "new"
+  },
+  {
+    "id": 9,
+    "nombre": "ESCRITORIO",
+    "precio": 25000,
+    "img": "img/escritorio.jpg",
+    "categoria": "new"
+  },
+  {
+    "id": 10,
+    "nombre": "COMBO TECLADO+MOUSE",
+    "precio": 25000,
+    "img": "img/combo.jpg",
+    "categoria": "new"
+  },
+  {
+    "id": 11,
+    "nombre": "SILLA GAMER",
+    "precio": 25000,
+    "img": "img/silla2.jpg",
+    "categoria": "new"
+  },
+  {
+    "id": 12,
+    "nombre": "LAPTOP",
+    "precio": 25000,
+    "img": "img/laptop.jpg",
+    "categoria": "new"
+  },
+  {
+    "id": 13,
+    "nombre": "GABINETE",
+    "precio": 25000,
+    "img": "img/gabinete.jpg",
+    "categoria": "new"
+  },
+  {
+    "id": 14,
+    "nombre": "AURICULARES PRO",
+    "precio": 25000,
+    "img": "img/auris.jpg",
+    "categoria": "productos"
+  },
+  {
+    "id": 15,
+    "nombre": "MICRÓFONO PRO",
+    "precio": 25000,
+    "img": "img/mic.jpg",
+    "categoria": "productos"
+  },
+  {
+    "id": 16,
+    "nombre": "SILLA VIOLETA",
+    "precio": 25000,
+    "img": "img/sillavioleta.jpg",
+    "categoria": "productos"
+  },
+  {
+    "id": 17,
+    "nombre": "GABINETE PRO",
+    "precio": 25000,
+    "img": "img/gabineteP.jpg",
+    "categoria": "productos"
+  },
+  {
+    "id": 18,
+    "nombre": "MONITOR",
+    "precio": 25000,
+    "img": "img/monitor.jpg",
+    "categoria": "productos"
+  },
+  {
+    "id": 19,
+    "nombre": "WEBCAM",
+    "precio": 25000,
+    "img": "img/webcam.jpg",
+    "categoria": "productos"
+  },
+  {
+    "id": 20,
+    "nombre": "LAPTOP PRO",
+    "precio": 25000,
+    "img": "img/laptop2.jpg",
+    "categoria": "productos"
+  }
+]
